@@ -77,6 +77,6 @@ button.addEventListener("click", function (event) {
     }
   };
 
-  isNameValid && isLastnameValid && isEmailValid && isPasswordValid ? title.innerHTML = "YOU'RE IN!" : title.innerHTML = "WELCOME";
+  isNameValid && isLastnameValid && isEmailValid && isPasswordValid ? title.innerHTML = "YOU'RE IN!" : title.innerHTML = "WELLCOME";
   console.log(toJson())
 });
